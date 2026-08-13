@@ -1,0 +1,11 @@
+pkgname = "leantar"
+pkgver = "0.1.20"
+pkgrel = 0
+build_style = "cargo"
+hostmakedepends = ["cargo-auditable", "pkgconf"]
+makedepends = ["zstd-devel", "rust-std"]
+pkgdesc = "Lean 4 .olean file (de)compressor"
+license = "Apache-2.0"
+url = "https://github.com/digama0/leangz"
+source = f"{url}/archive/refs/tags/v{pkgver}.tar.gz"
+sha256 = "46b1b7aea6905ace2f06083143bdc8e782643517c62d19751d8933620fd44816"
